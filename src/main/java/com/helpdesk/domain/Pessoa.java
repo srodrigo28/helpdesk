@@ -17,7 +17,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.helpdesk.domain.enus.Perfil;
+import com.helpdesk.enus.Perfil;
 
 @Entity
 public abstract class Pessoa implements Serializable{
@@ -39,7 +39,7 @@ public abstract class Pessoa implements Serializable{
 	@CollectionTable(name = "PERFIS")
 	protected Set<Integer> perfis = new HashSet<>();
 	
-	@JsonFormat(pattern = "dd/mm/yyyy")
+	@JsonFormat(pattern = "dd/MM/yyyy")
 	protected LocalDate dataCriacao = LocalDate.now();
 	
 	public Pessoa() {

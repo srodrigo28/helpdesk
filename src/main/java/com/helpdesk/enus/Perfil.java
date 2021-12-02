@@ -1,4 +1,4 @@
-package com.helpdesk.domain.enus;
+package com.helpdesk.enus;
 
 public enum Perfil {
 	ADMIN(0, "ROLE_ADMIN"), CLIENTE(1, "ROLE_CLIENTE"), TECNICO(2, "ROLE_TECNICO");
