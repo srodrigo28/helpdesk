@@ -1,1 +1,18 @@
 https://www.udemy.com/course/formacao-angular-spring-boot/learn/lecture/28389574#notes
+
+INSERT INTO USERS(NAME, EMAIL, PERFIL, SENHA) VALUES('bastiao', 'bastiao@gmail.com', 'admin','123')
+select * from users
+
+H2-Banco-Sucesso--------------------
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2-console
+
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.datasource.username=sa
+spring.datasource.password=
+spring.datasource.driver-class-name=org.h2.Driver
+
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+
+Mysql-Banco-Sucesso--------------------
